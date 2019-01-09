@@ -1,0 +1,355 @@
+body {
+  background: url("../images/ad_pic16.gif") no-repeat center fixed;
+    background-size: cover;
+    overflow: auto;
+}
+
+
+.alt {
+  background: url("../images/ad_pic8.jpg") no-repeat center fixed;
+  background-size: cover;
+  bottom: 0px;
+}
+
+
+header {
+  font-family: 'Homemade Apple', cursive;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  background: linear-gradient(bottom, rgba(0,0,0,0.4), rgba(0,0,0,1));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,0.4), rgba(0,0,0,1));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,0.4), rgba(0,0,0,1));
+  /*padding-top: 0px;*/
+  margin-bottom: 0px;
+ }
+
+
+h1{
+padding: 0 0 0 0;
+margin: 30px 0 0 0;
+}
+
+
+.fixed {
+  position: fixed;
+  top: 0px;
+  left: 0;
+  right: 0;
+}
+
+
+.navbar {
+    margin-bottom: 0px;
+    background-color: transparent;
+    z-index: 9999;
+    border: 0;
+    font-size: 20px !important;
+    font-family: courier;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+.nav > li{
+  width: auto;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+    padding: 0px 70px 0px 70px;
+    text-decoration: none;
+    z-index: 9999;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #000 !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+ul {
+  padding: 0px 10px;
+  margin: 0 auto;
+  text-align: center;
+
+}
+li {
+  text-align: justify;
+  padding: 20px 20px;
+  padding-top: 35px;
+  padding-bottom: 5px;
+}
+
+.active {
+    background-color: none;
+    color: white;
+    text-align: center;
+    z-index: -1;
+  }
+
+.active_2 {
+    background-color: none;
+    color: white;
+  }
+
+
+.about {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 250px;
+  text-align: center;
+  color: black;
+  font-family: 'Nothing You Could Do', cursive;
+  font-weight: bold;
+  font-size: 25px;
+  line-height:2;
+  z-index: 0;
+  display: inline-block;
+  padding-right: 7.5%;
+  padding-left: 7.5%;
+  padding-top: 250px;
+}
+
+@-webkit-keyframes typing {
+    from { width: 0 }
+    to { width:31em }
+}
+
+@-moz-keyframes typing {
+    from { width: 0 }
+    to { width:31em }
+}
+
+@-webkit-keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: black }
+}
+
+@-moz-keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: black }
+}
+
+body { font-family: courier, monospace; }
+
+.typing_init { 
+    font-size:35px;
+    font-weight: bold;
+    width:100%;
+    white-space:nowrap;
+    overflow:hidden;
+    margin: 0 auto;
+    text-align: center;
+    float: center;
+    padding-top: 150px;
+    padding-bottom: 0px;
+    -webkit-animation: typing 3s steps(100, end), blink-caret 1s step-end infinite;
+    -moz-animation: typing 3s steps(100, end), blink-caret 1s step-end infinite;
+  }
+
+.delayed {
+    font-family: courier;
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1em;
+ }
+
+.img-fluid{
+  width: 700px;
+  height: 700px;
+  background-color: none;
+  position: center;
+  background-position: center;
+  text-align: center;
+}
+
+.carousel{
+  z-index: -1;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  text-align: center;
+}
+
+.carousel-item{
+  background-color: none;
+  z-index: -1;
+}
+
+.carousel-inner {
+    height: 75%;
+    margin: auto;
+    z-index: -1;
+}
+
+.carcolor{
+  color: black;
+}
+
+.fill {
+    width: 0%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.center-block{
+  margin: auto;
+}
+
+.container-fluid{
+  top: 300px;
+  bottom: 300px;
+  padding: 100px;
+}
+
+.carousel-indicators .active{
+    background-color: gray;
+}
+
+div {
+  margin-top: 300px;
+}
+
+.spacer{
+  padding-top: 0px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.picturebooks{
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 200px;
+  padding: 15px;
+  text-align: justify;
+  color: orange;
+  background-color: #000;
+  background: linear-gradient(bottom, rgba(0,0,0,0.4), rgba(0,0,0,1));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,0.4), rgba(0,0,0,1));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,0.4), rgba(0,0,0,1));
+  font-family: "Domine", serif;
+  top: 0px; 
+  z-index: 0;
+}
+
+.pics_line {
+  margin: 0; 
+  padding: 0;
+  margin-top: -200px;"
+}
+
+img { 
+  opacity: 0.85; 
+  background: black;
+} 
+
+img:hover { 
+  opacity: 1; 
+}
+
+
+.links {
+  font-family: courier;
+  font-size: 21px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: black;
+}
+
+.sources {
+  font-family: 'Homemade Apple', cursive;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.fundraising {
+  font-size: 21px;
+  font-family: "courier";
+  font-weight: bold;
+}
+
+
+#share-buttons img {
+width: 35px;
+padding: 1.5px;
+border-radius: 50%;
+box-shadow: 0;
+display: inline;
+text-align: center;
+float: left; 
+margin-left: 80px; 
+margin-top: -1230px; 
+}
+
+#contact {
+  text-align: center;
+  height: 2500px;
+}
+
+
+@media (max-width: 500px){
+  header {
+    margin-top: -18px;
+    }
+  h1 {
+    font-size: 18px;
+    padding: 0 0 2px 0;
+    top-margin: -20px;
+    }
+  body {
+    font-size: 8px;
+    margin: 0 0 0 0;
+    }
+  .about {
+    font-size: 15px;
+    margin: 0 0 0 0;
+    }
+  li {
+    display: inline-block;
+    padding: 5px;
+    font-size: 12px;
+    }
+  .navbar {
+    font-size: 8px;
+    padding: 2px;
+    text-align: justify;
+    float: center;
+    }
+  #share-buttons img {
+    padding: 1.5px;
+    border-radius: 50%;
+    box-shadow: 0;
+    display: block;
+    text-align: center;
+    float: center; 
+    margin-left: 18px; 
+    padding-right: 1px;
+    padding-left: 1px;
+    margin-top: 2px; 
+    }
+  .picturebooks{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 10px;
+    padding: 15px;
+    text-align: justify;
+    z-index: 0;
+    }
+  .pics_line {
+    margin: 0; 
+    padding: 0;
+    margin-top: 0px;"
+    }
+  }
